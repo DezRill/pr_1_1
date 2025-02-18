@@ -8,10 +8,24 @@
     margin-left: 10px;
 }
 
-.content {
+.d-flex {
+    display: flex;
+}
+
+.d-flex .content {
     width: 70vw;
 }
 
-.content p {
+.d-flex .content p {
     font-size: 16px;
+    margin-top: 0;
+}
+
+.d-flex .sidebar {
+    margin-left: 10px;
+    width: calc(30vw - 10px);
+}
+
+.d-flex .sidebar .skills, .d-flex .sidebar .contacts {
+    margin-top: 0;
 }
