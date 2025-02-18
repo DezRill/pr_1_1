@@ -1,0 +1,17 @@
+.name {
+    margin-bottom: 0;
+}
+
+.photo {
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+}
+
+.content {
+    width: 70vw;
+}
+
+.content p {
+    font-size: 16px;
+}
